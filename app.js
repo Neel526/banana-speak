@@ -5,7 +5,7 @@ var output = document.querySelector("#output");
 
 
 function callback(){
-    var url = "https://api.funtranslations.com/translate/ferb-latin.json?text=" + textInput.value;
+    var url = "https://api.funtranslations.com/translate/minion.json?text=" + textInput.value;
     fetch(url)
     .then(Response => Response.json())
     .then(json => {output.innerText = json.contents.translated})

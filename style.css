@@ -1,0 +1,50 @@
+:root{
+    --yellow: #F2C94C;
+}
+#text{
+    width: 80%;
+    height: 20vh;
+    padding: 1rem;
+    margin: 1rem 1rem;
+}
+#output{
+    /* display: block; */
+    text-align: center;
+    display: block;
+    width: 80%;
+    height: 10vh;
+    padding: 1rem;
+    margin: 1rem 1rem;
+    border: 1px solid;
+}
+
+.navigation{
+    display: block;
+    text-align: center;
+    background-color: var(--yellow);
+    padding: 1rem 2rem;
+    
+}
+
+.textarea{
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+#btn-translate{
+    display: block;
+    background-color: var(--yellow);
+    padding: 1rem 1rem;
+    text-align: center;  
+    margin-left: 4rem;
+    border: none;  
+}
+
+.trans{
+    display: block;
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
